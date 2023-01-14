@@ -1,3 +1,172 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Work+Sans:wght@100;200;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* body {
+    background: #ff900e1a;
+} */
+
+.primary-btn {
+    color: #fff;
+    background: #FF900E;
+    border: none;
+    border-radius: 8px;
+    padding: 20px 24px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.hide {
+    display: none;
+}
 
 /* Header Styles */
+.header {
+    background-color: #ff900e1a;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    padding: 50px 30px 0 30px;
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+.header-title {
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    white-space: nowrap;
+}
+
+.header .container nav ul {
+    display: flex;
+}
+
+.header .container nav ul li {
+    padding: 0 17px;
+    list-style: none;
+}
+
+.header .container nav ul li a {
+    color: #424242;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    white-space: nowrap;
+}
+
+/* Banner Styles */
+.banner {
+    background-color: #ff900e1a;
+}
+
+.banner .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 116px 30px 45px 30px; /* Try Margin After*/
+}
+
+.banner-title {
+    color: #131313;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    max-width: 862px;
+    text-align: center; 
+    margin-bottom: 36px;
+}
+
+.banner-description {
+    color: #727272;
+    font-size: 16px;
+    line-height: 26px;
+    max-width: 862px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.banner-btn  {
+    margin-bottom: 50px;
+}
+
+.banner-image img {
+    width: 100%;
+}
+
+/* Quick List Features Styles */
+.ql-features .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 73px;
+    margin: 85px 30px 0 30px;
+}
+
+.ql-features .images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.ql-features .images .image {
+    height: 342px;
+}
+
+.ql-features .images img {
+    /* width: 100%; */
+    max-width: 342px;
+}
+
+.ql-features .details {
+    width: 537px;
+}
+
+.ql-features .details-title {
+    color: #727272;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 53px;  
+    margin-bottom: 24px;
+}
+
+.ql-features .details-title span {
+    font-weight: 700;
+}
+
+.ql-features .details-title span.dt-c-1 {
+    color: #131313;
+}
+
+.ql-features .details-title span.dt-c-2 {
+    color: #FF900E;
+}
+
+.ql-features .details-description {
+    color: #727272;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 32px;
+}
+
+/* Media Queries */
+@media only screen and (min-width: 0px) and (max-width: 992px) {
+    .header .container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .header .container nav ul {
+        flex-direction: column;
+    }
+}
