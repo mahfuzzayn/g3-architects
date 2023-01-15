@@ -159,8 +159,212 @@
     margin-bottom: 32px;
 }
 
+/* Features Styles */
+.features .container {
+    display: flex;
+    justify-content: center;
+    gap: 146px;
+    margin: 130px 30px 0 30px;
+}
+
+.features .details{
+    max-width: 586px;
+}
+
+.features .details-title {
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    border-left: 5px solid #FF900E;
+    padding-left: 22px;
+    margin-bottom: 24px;
+}
+
+.features .details-description {
+    color: #727272;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 30px;
+}
+
+.features-items-container .feature {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 30px 42px 30px 30px;
+    margin-bottom: 20px;
+}
+
+.features-items-container .feature .feature-title {
+    color: #131313;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 10px;
+}
+
+.features-items-container .feature .feature-description {
+    color: #727272;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.features .image {
+    position: relative;
+    max-width: 708px;
+    max-height: 982px;
+}
+
+.features .feature-btn {
+    position: absolute;
+    bottom: -72px;
+    left: -64px;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 65px;
+    padding: 42px 46px;
+}
+
+.features .feature-btn p {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 40px;
+}
+
+/* Some Facts Styles */
+.some-facts {
+    margin: 0 auto;
+    max-width: 1500px;
+}
+
+.some-facts .container {
+    margin: 130px 30px 0 30px;
+}
+
+.some-facts .details {
+    max-width: 542px;
+}
+
+.some-facts .details-title {
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    margin-bottom: 24px;
+}
+
+.some-facts .details-description {
+    color: #727272;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.sf-items-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 124px;
+    margin-top: 100px;
+}
+
+.sf-items-container .item {
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    padding: 46px 36px 60px 36px;
+    text-align: center;
+}
+
+.sf-items-container .item img {
+    margin-bottom: 10px;
+}
+
+.sf-items-container .item h2.count {
+    color: #424242;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 53px;
+}
+
+.sf-items-container .item h2.title {
+    color: #727272;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+/* Our Sponsors */
+.our-sponsors .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 180px 30px 0 30px;
+}
+
+.our-sponsors .details {
+    max-width: 542px;
+    text-align: center;
+}
+
+.our-sponsors .details-title {
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    margin-bottom: 24px;
+}
+
+.our-sponsors .details-description {
+    color: #727272;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.os-items-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 154px;
+    margin-top: 50px;
+}
+
+.os-items-container .item img {
+    width: 100%;
+    max-width: 152px;
+    filter: grayscale(100%);
+}
+
+/* Footer Styles */
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    max-width: 1440px;
+    background: #FFF4E7;
+    border-radius: 8px;
+    margin: 130px 30px 216px 30px;
+}
+
+.footer .container p {
+    color: #424242;
+    font-size: 20px;
+    line-height: 26px;
+    padding: 0 24px;
+    text-align: center;
+}
+
+
 /* Media Queries */
-@media only screen and (min-width: 0px) and (max-width: 992px) {
+
+/* Mobile Devices */
+@media only screen and (max-width: 576px) {
     .header .container {
         flex-direction: column;
         align-items: flex-start;
@@ -169,4 +373,16 @@
     .header .container nav ul {
         flex-direction: column;
     }
+}
+
+/* Tablet Devices */
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+    /* .header .container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .header .container nav ul {
+        flex-direction: column;
+    } */
 }
