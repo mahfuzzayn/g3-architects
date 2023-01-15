@@ -293,6 +293,66 @@
     line-height: 23px;
 }
 
+/* Explore Styles */
+.explore .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 96px;
+    margin: 180px 30px 0 30px;
+}
+
+.explore .image {
+    max-width: 525px;
+}
+
+.explore .image img {
+    /* width: 100%; */
+    max-width: 525px;
+    border-radius: 7px;
+}
+
+.explore .details {
+    width: 537px;
+}
+
+.explore .details-title {
+    color: #131313;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 53px;  
+    margin-bottom: 24px;
+}
+
+.explore .details-title span {
+    font-weight: 700;
+}
+
+.explore .details-title span.dt-c-1 {
+    color: #727272;
+}
+
+.explore .details-title span.dt-c-2 {
+    color: #FF900E;
+}
+
+.explore .details-description {
+    color: #727272;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 32px;
+}
+
+.explore .explore-btn {
+    font-weight: 500;
+}
+
+.explore .explore-btn img {
+    position: relative;
+    top: 2px;
+    padding-left: 4px;
+}
+
 /* Our Sponsors */
 .our-sponsors .container {
     display: flex;
