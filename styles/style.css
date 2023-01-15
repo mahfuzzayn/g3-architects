@@ -453,6 +453,7 @@
 
 /* Mobile Devices */
 @media only screen and (max-width: 576px) {
+    /* Header Styles */
     .header .container {
         flex-direction: column;
         align-items: flex-start;
@@ -461,16 +462,85 @@
     .header .container nav ul {
         flex-direction: column;
     }
+
+    /* Quick List Features Styles */
+    .ql-features .container {
+        flex-direction: column;
+    }
+
+    .ql-features .images {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .ql-features .details {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .ql-features .details-title,
+    .ql-features .details-description {
+        text-align: center;
+    }
+    
+    /* Features Styles */
+    .features .container {
+        flex-direction: column;
+        gap: 54px;
+    }
+    
+    .features .image {
+        position: relative;
+        max-width: 708px;
+        max-height: 982px;
+    }
+
+    .features .image img {
+        width: 100%;
+    }
+
+    .features .feature-btn {
+        position: absolute;
+        bottom: -72px;
+        left: -64px;
+        font-weight: 700;
+        font-size: 60px;
+        line-height: 65px;
+        padding: 42px 46px;
+    }
+
+    /* Some Facts Styles */
+    .sf-items-container {
+        gap: 100px;
+        margin-top: 76px;
+    }
+
+    /* Explore Styles */
+    .explore .container {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .explore .image,
+    .explore .image img,
+    .explore .details {
+        width: 100%;
+    }
+
+    /* Our Sponsors */
+    .os-items-container {
+        gap: 100px;
+        margin-top: 50px;
+    }
+
+    /* Footer Styles */
+    .footer .container {
+        margin: 130px 30px 108px 30px;
+    }
 }
 
 /* Tablet Devices */
 @media only screen and (min-width: 577px) and (max-width: 992px) {
-    /* .header .container {
-        flex-direction: column;
-        align-items: flex-start;
-    }
     
-    .header .container nav ul {
-        flex-direction: column;
-    } */
 }
