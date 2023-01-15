@@ -5,10 +5,6 @@
     font-family: 'Work Sans', sans-serif;
 }
 
-/* body {
-    background: #ff900e1a;
-} */
-
 .primary-btn {
     color: #fff;
     background: #FF900E;
@@ -18,10 +14,6 @@
     font-weight: 600;
     font-size: 20px;
     line-height: 23px;
-}
-
-.hide {
-    display: none;
 }
 
 /* Header Styles */
@@ -74,7 +66,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 116px 30px 45px 30px; /* Try Margin After*/
+    padding: 116px 30px 45px 30px;
 }
 
 .banner-title {
@@ -124,7 +116,6 @@
 }
 
 .ql-features .images img {
-    /* width: 100%; */
     max-width: 342px;
 }
 
@@ -335,7 +326,6 @@
 }
 
 .explore .image img {
-    /* width: 100%; */
     max-width: 525px;
     border-radius: 7px;
 }
@@ -437,7 +427,7 @@
     max-width: 1440px;
     background: #FFF4E7;
     border-radius: 8px;
-    margin: 130px 30px 216px 30px;
+    margin: 130px 30px 108px 30px;
 }
 
 .footer .container p {
@@ -461,6 +451,10 @@
     
     .header .container nav ul {
         flex-direction: column;
+    }
+
+    .header .container nav ul li {
+        padding-bottom: 7px;
     }
 
     /* Quick List Features Styles */
@@ -494,6 +488,7 @@
         position: relative;
         max-width: 708px;
         max-height: 982px;
+        margin-left: 66px;
     }
 
     .features .image img {
@@ -505,9 +500,15 @@
         bottom: -72px;
         left: -64px;
         font-weight: 700;
-        font-size: 60px;
-        line-height: 65px;
-        padding: 42px 46px;
+        font-size: 35px;
+        line-height: 40px;
+        padding: 20px 26px;
+    }
+
+    .features .feature-btn p {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 40px;
     }
 
     /* Some Facts Styles */
@@ -533,14 +534,9 @@
         gap: 100px;
         margin-top: 50px;
     }
-
-    /* Footer Styles */
-    .footer .container {
-        margin: 130px 30px 108px 30px;
-    }
 }
 
 /* Tablet Devices */
 @media only screen and (min-width: 577px) and (max-width: 992px) {
-    
+
 }
