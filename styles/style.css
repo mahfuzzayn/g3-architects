@@ -269,14 +269,23 @@
 }
 
 .sf-items-container .item {
+    width: 180px;
     border: 1px solid #FF900E;
     border-radius: 8px;
-    padding: 46px 36px 60px 36px;
+    padding: 46px 30px 60px 30px;
     text-align: center;
+    transition: all 0.25s ease-out;
 }
 
 .sf-items-container .item img {
     margin-bottom: 10px;
+}
+
+.sf-items-container .item,
+.sf-items-container .item img,
+.sf-items-container .item h2.count,
+.sf-items-container .item h3.title {
+    transition: all 0.25s ease-out;
 }
 
 .sf-items-container .item h2.count {
@@ -286,11 +295,30 @@
     line-height: 53px;
 }
 
-.sf-items-container .item h2.title {
+.sf-items-container .item h3.title {
     color: #727272;
     font-weight: 600;
     font-size: 20px;
     line-height: 23px;
+}
+
+
+/* Some Facts Items Animation/Transition Styles */
+.sf-items-container .item:hover {
+    background-color: #FF900E;
+    color: #FFFFFF;
+}
+
+.sf-items-container .item:hover img {
+    transform: scale(1.4) translateY(-8px);
+}
+
+.sf-items-container .item:hover h2.count {
+    color: #FFFFFF;
+}
+
+.sf-items-container .item:hover h3.title {
+    color: #FFFFFF;
 }
 
 /* Explore Styles */
